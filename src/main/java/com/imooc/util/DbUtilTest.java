@@ -14,7 +14,7 @@ import java.util.List;
  */
 public class DbUtilTest {
     public static void main(String[] args) {
-        String jdbcUrl = "jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8";
+        String jdbcUrl = "jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8";
         String username = "root";
         String password = "root";
         DbUtil dbUtil = new DbUtil(jdbcUrl, username, password);
